@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width" =device-width, initial-scale="1.0">
+        <title>Student Expense Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!main container>
+        <header>
+            <h1>Student Expense Tracker</h1>
+            <p>Manage your money. Track your spending.</p>
+        </header>
+        <!Balance section>
+        <section class="balance-section">
+            <h2>Available balance</h2>
+            <h1 id="balance">ksh 5000</h1>
+            <! Summary cards>
+            <section class="summary"
+            <div class="card">
+              <h3>Total budget</h3>
+              <p id="total-expenses">ksh 10000</p>
+            </div>           
+        </section>
+          <section class="expense-section">
+            <h2>Add new expense</h2>
+            <form id="expense-form">
+              <label for="expense-name">Expense Name:</label>
+              <input type="text" id="expense-name" name="expense-name" required>
+              <label for="expense-amount">Amount:</label>
+              <input type="number" id="expense-amount" name="expense-amount" step="0.01" required>
+              <button type="submit">Add Expense</button>
+            </form>
+          </section>
+          <section class="expense-list">
+            <h2>Recent Expenses</h2>
+            <ul id="Expense-list">
+
+            </ul>
+          </section>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
+
+    
+
+
+    
+      
+    
+    
